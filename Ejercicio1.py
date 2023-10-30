@@ -1,18 +1,23 @@
-# Ejercicio. Numero par
+# ¿Qué es una variable en python? Es un espacio de memoria donde se guardan datos. y Pueden ser:
 
-ejercicioActivo = True
+# Enteros
 
+edad = 30
 
-while (ejercicioActivo):
-    numero = int(input(f"Digite un número: "))
-    try:    
-        if numero != 100:
-            if  numero%2 == 0:
-                print(f"El número ingresado es par")
-            else:
-                print(f"El número ingresado es impar")
-        else:
-            print("Saliendo del ejercicio...")
-            ejercicioActivo = False
-    except ValueError:
-        print("`numero` Debes ser un número entero")
+#flotantes
+
+precio = 12.43
+
+# strings 
+
+nombre = "Juan"
+apellido = 'Pérez'
+
+#booleanos
+
+activo = True
+inactivo = False
+
+# complejos
+
+z1 = 4 - 3j
