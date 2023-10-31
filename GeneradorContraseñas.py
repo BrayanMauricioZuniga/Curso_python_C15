@@ -46,4 +46,4 @@ try:
     print("Su contraseña es: ")
     print(*contrasena)
 except ValueError:
-    print(f"Debes ingresar un numero entero")
+    print(f"¡Debes ingresar un número entero!")
