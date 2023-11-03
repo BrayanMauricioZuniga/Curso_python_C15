@@ -18,11 +18,11 @@ def seguir():
     continuar = str(input(f"¿Desea continuar? (s/n): "))
     if continuar == 'n':
         activo = False
-        print("Saliendo...")
+        print(f"Saliendo...")
     else:
         if continuar == 's':
             activo = True
-            print(f"continuar")
+            print(f"")
         else:
             print(f"-¡Error! Debes ingresar una opcón válida")
             seguir()
@@ -58,7 +58,7 @@ while(activo):
                 contrasena.append(a)
     
             random.shuffle(contrasena)
-            print(f"N° de caracteres de su contraseña: " + str(len(contrasena)))
+            
             print(f"Su contraseña es: ")
             print(*contrasena)     
         
